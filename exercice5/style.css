@@ -1,0 +1,39 @@
+body{
+    background-image: url('im.jpeg');
+}
+
+.you{
+    background-color: aqua;
+    height: 9rem;
+    text-align: center;
+    font-size: 6rem;
+    margin-left: 7rem;
+    margin-top: 2rem;
+    margin-right: 7rem;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    width: 19%;
+    height: 3rem;
+    
+
+}
+
+input[type="submit"]{
+    background-color: #0E0;
+}
+
+.you1{
+    background-color: aqua;
+    height: 19rem;
+    text-align: center;
+    font-size: 6rem;
+    margin-left: 35rem;
+    margin-top: 2rem;
+    margin-right: 35rem;
+}

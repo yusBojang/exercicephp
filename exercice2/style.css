@@ -1,0 +1,13 @@
+body{
+    background-image: url('im.jpeg');
+}
+
+.you{
+    background-color: aqua;
+    height: 8rem;
+    text-align: center;
+    font-size: 6rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    margin-right: 8rem;
+}
