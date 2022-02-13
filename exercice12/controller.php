@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -6,43 +7,51 @@ error_reporting(E_ALL);
 
 
 
-    $tab=[
-        "janv"=>"janvier",
-        "fev"=>"fevrier",
-        "mar"=>"mars",
-        "avr"=>"avril",
-        "mai"=>"mais",
-        "jui"=>"juin",
-        "jul"=>"juillet",
-        "out"=>"Aout",
-        "sep"=>"Septembre",
-        "oct"=>"Octobre",
-        "nov"=>"novembre",
-        "dec"=>"Decembre",
-    ];
+    $tab1= array(
+        "janvier",
+        "fevrier",
+        "mars",
+        "avril",
+        "mais",
+        "juin",
+        "juillet",
+       "Aout",
+       "Septembre",
+        "Octobre",
+        "novembre",
+       "Decembre",
+    );
 
+    $tab2=array(
+    "january",
+    "february",
+    "march",
+    "avpril",
+    "may",
+    "june",
+    "jully",
+    "Aougust",
+    "September",
+    "October",
+    "november",
+    "December");
+    $_SESSION['resultat'] =  $tab1;
 
     if(isset($_POST['submit'])){
-        echo $tab["janv"]." ";
-        echo $tab["fev"]." ";
-        echo $tab["mar"]." ";
-        echo $tab["avr"]." <br>";
-        echo $tab["mai"]." ";
-        echo $tab["jui"]." ";
-        echo $tab["jul"]." ";
-        echo $tab["out"]." <br>";
-        echo $tab["sep"]." ";
-        echo $tab["oct"]." ";
-        echo $tab["nov"]." ";
-        echo $tab["dec"]." <br>";
+    $_SESSION['resultat'] =  $tab1;
+
+
+        header('location:index.php');
+        
+       
+        
     }elseif(isset($_POST['submit1'])){
 
-        $tab["janv"] = "january";
-
-        echo $tab["janv"]." ";
-        echo $tab["fev"]." ";
-        echo $tab["mar"]." ";
-        echo $tab["avr"]." <br>";
+       
+       
+            $_SESSION['resultat'] = $tab2;
+            header('location:index.php');
+        
 
     }
 

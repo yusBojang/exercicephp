@@ -1,0 +1,31 @@
+body{
+    background-image: url('im.jpeg');
+}
+
+.you{
+    background-color: aqua;
+    height: 8rem;
+    text-align: center;
+    font-size: 6rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    margin-right: 8rem;
+}
+.diw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+button{
+    background-color: aqua;
+    width: 10%;
+    height: 4vh;
+    border-radius: 3rem;
+}
+
+

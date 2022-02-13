@@ -41,3 +41,20 @@ input[type="submit"]{
     background-color: #0E0;
     margin-top: 9rem;
 }
+
+.diw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+button{
+    background-color: aqua;
+    width: 10%;
+    height: 4vh;
+    border-radius: 3rem;
+}

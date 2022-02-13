@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style4.css">
 </head>
 <body>
 
@@ -44,6 +44,13 @@ if(isset($_GET["per1"])){
 }
 
 ?>
+
+<div class="diw">
+
+<button class="btn1"><a href="../exercice3/index.php">precedent</a></button>
+<button class="btn2"><a href="../exercice5/index.php">suivant</a></button>
+
+</div>
 
 </body>
 </html>

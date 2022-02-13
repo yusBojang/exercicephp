@@ -1,7 +1,5 @@
 body{
-    background-image: url('im.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url('im.jpeg');
 }
 
 
@@ -36,4 +34,21 @@ input[type="submit"]{
 
 .calcul h4 {
     color: red;
-}   
+}
+
+.diw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+button{
+    background-color: aqua;
+    width: 10%;
+    height: 4vh;
+    border-radius: 3rem;
+}

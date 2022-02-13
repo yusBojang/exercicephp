@@ -25,15 +25,22 @@ function nbrPremier($number) {
 
 
 
+function longueur($chaine)
+{
+    $j=0;
+    while (isset($chaine[$j])) {
+        $j++;
+    }
+    return $j;
+}
+
 function saisiEntier($ent){
-    for($i=0;$i<$ent;$i++){
-        if($ent[$i] >= 0 && $ent[$i] <= 9 ){
-            return true;
-        }else{
+    for($i=0; $i< longueur($ent);$i++){
+
+        if(!($ent[$i] >= 0 && $ent[$i] <= 9) ){
             return false;
         }
     }
+    return true;
 }
-
-
 

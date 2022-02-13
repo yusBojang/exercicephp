@@ -1,0 +1,39 @@
+
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+input[type="submit"]{
+    background-color: #0E0;
+}
+
+table{
+    height: 40vh;
+    margin-left: 14rem;
+    margin-top: 10rem;
+    
+}
+
+.diw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+button{
+    background-color: aqua;
+    width: 10%;
+    height: 4vh;
+    border-radius: 3rem;
+}

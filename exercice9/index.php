@@ -11,7 +11,7 @@ include_once("function.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style9.css">
 </head>
 <body>
 
@@ -33,6 +33,13 @@ include_once("function.php");
         ?>
 
     </form>
+</div>
+
+<div class="diw">
+
+<button class="btn1"><a href="../exercice8/index.php">precedent</a></button>
+<button class="btn2"><a href="../exercice10/index.php">suivant</a></button>
+
 </div>
     
 </body>
